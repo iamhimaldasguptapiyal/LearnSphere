@@ -1,0 +1,359 @@
+[
+  {
+    "id": "vue-essentials",
+    "title": "Vue 3 Essentials: Composition API from Scratch",
+    "category": "Web Development",
+    "level": "Beginner",
+    "instructor": "Amara Okafor",
+    "instructorRole": "Senior Frontend Engineer",
+    "rating": 4.8,
+    "reviews": 2419,
+    "students": 18420,
+    "durationHours": 12,
+    "price": 0,
+    "tags": ["Vue", "JavaScript", "Frontend"],
+    "accent": "#6366f1",
+    "summary": "Build reactive interfaces with script setup, refs, computed values and composables.",
+    "description": "Start from zero and finish with a production-ready single page application. This course walks through the reactivity system, component composition, and the patterns professional teams rely on every day. You will build three projects, each one introducing a new slice of the framework.",
+    "outcomes": [
+      "Create components with the script setup syntax",
+      "Manage reactive state with ref, reactive and computed",
+      "Extract reusable logic into composables",
+      "Handle forms, events and two-way binding confidently"
+    ],
+    "lessons": [
+      { "id": "l1", "title": "Why a reactivity system matters", "minutes": 14 },
+      { "id": "l2", "title": "Your first script setup component", "minutes": 22 },
+      { "id": "l3", "title": "Props, emits and the data flow contract", "minutes": 26 },
+      { "id": "l4", "title": "Computed values and watchers", "minutes": 19 },
+      { "id": "l5", "title": "Building a composable from scratch", "minutes": 31 },
+      { "id": "l6", "title": "Project: a filterable dashboard", "minutes": 44 }
+    ]
+  },
+  {
+    "id": "responsive-design",
+    "title": "Responsive and Accessible Interface Design",
+    "category": "Design",
+    "level": "Beginner",
+    "instructor": "Priya Raman",
+    "instructorRole": "Design Systems Lead",
+    "rating": 4.7,
+    "reviews": 1188,
+    "students": 9310,
+    "durationHours": 9,
+    "price": 49,
+    "tags": ["CSS", "Accessibility", "UX"],
+    "accent": "#0ea5e9",
+    "summary": "Design layouts that work on every screen and for every user, not just the average one.",
+    "description": "Accessibility is not a checklist you bolt on at the end. This course teaches a mobile-first workflow where semantics, colour contrast and keyboard support are decisions you make while you draw the first box, using modern CSS layout as the foundation.",
+    "outcomes": [
+      "Apply a mobile-first CSS methodology",
+      "Meet WCAG AA contrast and focus requirements",
+      "Build layouts with Grid and Flexbox",
+      "Audit an interface with a screen reader"
+    ],
+    "lessons": [
+      { "id": "l1", "title": "Mobile-first as a mindset", "minutes": 17 },
+      { "id": "l2", "title": "Fluid type and spacing scales", "minutes": 24 },
+      { "id": "l3", "title": "Grid, Flexbox and when to use which", "minutes": 29 },
+      { "id": "l4", "title": "Semantic HTML and landmarks", "minutes": 21 },
+      { "id": "l5", "title": "Keyboard traps and focus management", "minutes": 25 }
+    ]
+  },
+  {
+    "id": "js-async",
+    "title": "Asynchronous JavaScript in Depth",
+    "category": "Web Development",
+    "level": "Intermediate",
+    "instructor": "Daniel Weiss",
+    "instructorRole": "Staff Engineer",
+    "rating": 4.9,
+    "reviews": 3067,
+    "students": 24105,
+    "durationHours": 15,
+    "price": 79,
+    "tags": ["JavaScript", "APIs", "Performance"],
+    "accent": "#f59e0b",
+    "summary": "Promises, async/await, error boundaries and the event loop, explained properly.",
+    "description": "Most bugs in modern frontends are timing bugs. This course goes underneath the syntax to the event loop itself, then rebuilds your mental model of promises, cancellation, retries and race conditions so that asynchronous code stops being a source of surprise.",
+    "outcomes": [
+      "Explain the event loop, microtasks and macrotasks",
+      "Write robust async/await with real error handling",
+      "Cancel in-flight requests with AbortController",
+      "Design retry and loading state strategies"
+    ],
+    "lessons": [
+      { "id": "l1", "title": "The event loop, visualised", "minutes": 23 },
+      { "id": "l2", "title": "Promises beyond then and catch", "minutes": 28 },
+      { "id": "l3", "title": "async/await error boundaries", "minutes": 26 },
+      { "id": "l4", "title": "Racing, cancelling and debouncing", "minutes": 33 },
+      { "id": "l5", "title": "Loading states users actually like", "minutes": 20 },
+      { "id": "l6", "title": "Project: a resilient data layer", "minutes": 41 }
+    ]
+  },
+  {
+    "id": "data-viz",
+    "title": "Data Visualisation for the Web",
+    "category": "Data",
+    "level": "Intermediate",
+    "instructor": "Sofia Marchetti",
+    "instructorRole": "Data Experience Designer",
+    "rating": 4.6,
+    "reviews": 842,
+    "students": 6740,
+    "durationHours": 11,
+    "price": 65,
+    "tags": ["SVG", "Charts", "Analytics"],
+    "accent": "#10b981",
+    "summary": "Turn raw numbers into charts that inform rather than decorate.",
+    "description": "A practical tour of encoding data into visual form. You will learn which chart earns its place for which question, how to build charts directly in SVG without a heavy library, and how to keep them readable for colour-blind users and on small screens.",
+    "outcomes": [
+      "Choose the right chart for the question being asked",
+      "Build charts in raw SVG with scales you control",
+      "Design accessible, colour-blind safe palettes",
+      "Make visualisations responsive"
+    ],
+    "lessons": [
+      { "id": "l1", "title": "Encoding data as visual marks", "minutes": 19 },
+      { "id": "l2", "title": "Scales, domains and ranges", "minutes": 27 },
+      { "id": "l3", "title": "Drawing your first SVG chart", "minutes": 35 },
+      { "id": "l4", "title": "Colour that survives a colour-blind check", "minutes": 22 },
+      { "id": "l5", "title": "Responsive charts and tooltips", "minutes": 30 }
+    ]
+  },
+  {
+    "id": "state-management",
+    "title": "Client-Side State Management Patterns",
+    "category": "Web Development",
+    "level": "Advanced",
+    "instructor": "Amara Okafor",
+    "instructorRole": "Senior Frontend Engineer",
+    "rating": 4.7,
+    "reviews": 1520,
+    "students": 8905,
+    "durationHours": 10,
+    "price": 89,
+    "tags": ["Pinia", "Architecture", "Vue"],
+    "accent": "#8b5cf6",
+    "summary": "Know when state belongs in a component, a composable, or a global store.",
+    "description": "Global stores are frequently reached for too early and cause more coupling than they remove. This course gives you a decision framework for placing state, then goes deep on store design, derived state, persistence and testing.",
+    "outcomes": [
+      "Decide where a piece of state should live",
+      "Design Pinia stores with clear boundaries",
+      "Derive state instead of duplicating it",
+      "Persist and rehydrate state safely"
+    ],
+    "lessons": [
+      { "id": "l1", "title": "A decision tree for state placement", "minutes": 18 },
+      { "id": "l2", "title": "Store anatomy: state, getters, actions", "minutes": 25 },
+      { "id": "l3", "title": "Derived state and the duplication trap", "minutes": 24 },
+      { "id": "l4", "title": "Persistence with localStorage", "minutes": 21 },
+      { "id": "l5", "title": "Testing stores in isolation", "minutes": 29 }
+    ]
+  },
+  {
+    "id": "ux-research",
+    "title": "UX Research Fundamentals",
+    "category": "Design",
+    "level": "Beginner",
+    "instructor": "Ben Alvarez",
+    "instructorRole": "Principal Researcher",
+    "rating": 4.5,
+    "reviews": 611,
+    "students": 4380,
+    "durationHours": 8,
+    "price": 45,
+    "tags": ["Research", "UX", "Interviews"],
+    "accent": "#ec4899",
+    "summary": "Ask better questions, run useful sessions, and turn findings into decisions.",
+    "description": "Research fails when it produces opinions instead of evidence. Learn to plan a study, recruit honestly, run interviews and usability sessions without leading participants, and synthesise what you hear into something a product team can act on.",
+    "outcomes": [
+      "Write research questions that can be answered",
+      "Run interviews without leading the participant",
+      "Synthesise notes into themes and insights",
+      "Communicate findings to stakeholders"
+    ],
+    "lessons": [
+      { "id": "l1", "title": "What research can and cannot tell you", "minutes": 16 },
+      { "id": "l2", "title": "Planning a study", "minutes": 22 },
+      { "id": "l3", "title": "Interview technique", "minutes": 28 },
+      { "id": "l4", "title": "Synthesis and theming", "minutes": 26 }
+    ]
+  },
+  {
+    "id": "api-design",
+    "title": "Consuming REST APIs Like a Professional",
+    "category": "Web Development",
+    "level": "Intermediate",
+    "instructor": "Daniel Weiss",
+    "instructorRole": "Staff Engineer",
+    "rating": 4.6,
+    "reviews": 1341,
+    "students": 11260,
+    "durationHours": 7,
+    "price": 0,
+    "tags": ["APIs", "HTTP", "Fetch"],
+    "accent": "#14b8a6",
+    "summary": "Contracts, caching, pagination and failure, the parts tutorials skip.",
+    "description": "Fetching data is easy on the happy path. This short, dense course covers the rest: HTTP semantics, pagination strategies, optimistic updates, caching, and designing a data layer that degrades gracefully when the network does not cooperate.",
+    "outcomes": [
+      "Read and honour an HTTP API contract",
+      "Handle pagination and partial data",
+      "Implement caching and optimistic updates",
+      "Degrade gracefully on network failure"
+    ],
+    "lessons": [
+      { "id": "l1", "title": "HTTP semantics that matter", "minutes": 20 },
+      { "id": "l2", "title": "Designing a fetch wrapper", "minutes": 24 },
+      { "id": "l3", "title": "Pagination and infinite lists", "minutes": 27 },
+      { "id": "l4", "title": "Caching and optimistic updates", "minutes": 31 }
+    ]
+  },
+  {
+    "id": "career-portfolio",
+    "title": "Building a Developer Portfolio That Gets Replies",
+    "category": "Career",
+    "level": "Beginner",
+    "instructor": "Priya Raman",
+    "instructorRole": "Design Systems Lead",
+    "rating": 4.4,
+    "reviews": 397,
+    "students": 5120,
+    "durationHours": 5,
+    "price": 0,
+    "tags": ["Career", "Portfolio", "Writing"],
+    "accent": "#f43f5e",
+    "summary": "Present your work the way hiring teams actually read it.",
+    "description": "A portfolio is a communication problem, not a design problem. Learn to choose which projects to show, write case studies that explain your reasoning, and structure a site that a reviewer can scan in ninety seconds.",
+    "outcomes": [
+      "Select projects that demonstrate range",
+      "Write a case study with a clear decision narrative",
+      "Structure a portfolio for fast scanning",
+      "Prepare for the walkthrough interview"
+    ],
+    "lessons": [
+      { "id": "l1", "title": "How reviewers actually read portfolios", "minutes": 15 },
+      { "id": "l2", "title": "Choosing your three projects", "minutes": 18 },
+      { "id": "l3", "title": "The case study formula", "minutes": 23 },
+      { "id": "l4", "title": "The walkthrough interview", "minutes": 20 }
+    ]
+  },
+  {
+    "id": "testing-frontend",
+    "title": "Testing Frontend Applications",
+    "category": "Web Development",
+    "level": "Advanced",
+    "instructor": "Sofia Marchetti",
+    "instructorRole": "Data Experience Designer",
+    "rating": 4.8,
+    "reviews": 954,
+    "students": 7015,
+    "durationHours": 13,
+    "price": 95,
+    "tags": ["Testing", "Quality", "CI"],
+    "accent": "#3b82f6",
+    "summary": "Write tests that catch real regressions instead of restating the implementation.",
+    "description": "A test suite is only valuable if it fails for the right reasons. This course covers the testing pyramid in a component world, choosing what to assert, testing asynchronous UI, and wiring the whole thing into continuous integration.",
+    "outcomes": [
+      "Decide what is worth testing",
+      "Test components through user-visible behaviour",
+      "Handle async UI in tests reliably",
+      "Run the suite in CI on every push"
+    ],
+    "lessons": [
+      { "id": "l1", "title": "What a good test asserts", "minutes": 21 },
+      { "id": "l2", "title": "Component tests by behaviour", "minutes": 30 },
+      { "id": "l3", "title": "Testing async and loading states", "minutes": 27 },
+      { "id": "l4", "title": "Mocking the network honestly", "minutes": 25 },
+      { "id": "l5", "title": "Continuous integration setup", "minutes": 22 }
+    ]
+  },
+  {
+    "id": "product-analytics",
+    "title": "Product Analytics for Builders",
+    "category": "Data",
+    "level": "Beginner",
+    "instructor": "Ben Alvarez",
+    "instructorRole": "Principal Researcher",
+    "rating": 4.3,
+    "reviews": 288,
+    "students": 3190,
+    "durationHours": 6,
+    "price": 39,
+    "tags": ["Analytics", "Metrics", "Data"],
+    "accent": "#a855f7",
+    "summary": "Instrument a product so the numbers answer the question you actually asked.",
+    "description": "Learn to define events before you fire them, avoid vanity metrics, build a funnel that reflects real user intent, and read a cohort chart without fooling yourself.",
+    "outcomes": [
+      "Define an event taxonomy up front",
+      "Distinguish signal metrics from vanity metrics",
+      "Build and read a conversion funnel",
+      "Interpret retention cohorts honestly"
+    ],
+    "lessons": [
+      { "id": "l1", "title": "Events, properties and taxonomy", "minutes": 19 },
+      { "id": "l2", "title": "Metrics that mean something", "minutes": 21 },
+      { "id": "l3", "title": "Funnels and drop-off", "minutes": 24 },
+      { "id": "l4", "title": "Reading retention cohorts", "minutes": 26 }
+    ]
+  },
+  {
+    "id": "typescript-vue",
+    "title": "TypeScript for Vue Developers",
+    "category": "Web Development",
+    "level": "Intermediate",
+    "instructor": "Amara Okafor",
+    "instructorRole": "Senior Frontend Engineer",
+    "rating": 4.7,
+    "reviews": 1702,
+    "students": 12880,
+    "durationHours": 14,
+    "price": 75,
+    "tags": ["TypeScript", "Vue", "Tooling"],
+    "accent": "#0284c7",
+    "summary": "Type your props, emits, stores and API responses without fighting the compiler.",
+    "description": "TypeScript pays off in a component codebase when the types describe your contracts rather than your data structures. This course focuses on the Vue-specific patterns: typed props and emits, generic components, typed stores, and narrowing API responses at the boundary.",
+    "outcomes": [
+      "Type props, emits and slots precisely",
+      "Write generic, reusable components",
+      "Type Pinia stores and composables",
+      "Validate and narrow API responses"
+    ],
+    "lessons": [
+      { "id": "l1", "title": "Types as contracts, not paperwork", "minutes": 20 },
+      { "id": "l2", "title": "Typed props and emits", "minutes": 26 },
+      { "id": "l3", "title": "Generic components", "minutes": 29 },
+      { "id": "l4", "title": "Typing stores and composables", "minutes": 24 },
+      { "id": "l5", "title": "Narrowing at the API boundary", "minutes": 28 }
+    ]
+  },
+  {
+    "id": "motion-design",
+    "title": "Interface Motion and Micro-interactions",
+    "category": "Design",
+    "level": "Intermediate",
+    "instructor": "Priya Raman",
+    "instructorRole": "Design Systems Lead",
+    "rating": 4.5,
+    "reviews": 523,
+    "students": 4602,
+    "durationHours": 7,
+    "price": 55,
+    "tags": ["Animation", "CSS", "UX"],
+    "accent": "#eab308",
+    "summary": "Motion that explains what changed, and respects people who prefer none.",
+    "description": "Good motion is functional: it shows where an element came from, confirms an action, and covers a wait. Learn easing, duration and choreography, plus how to honour prefers-reduced-motion without gutting the experience.",
+    "outcomes": [
+      "Use motion to explain state change",
+      "Pick durations and easing curves deliberately",
+      "Choreograph multi-element transitions",
+      "Respect prefers-reduced-motion"
+    ],
+    "lessons": [
+      { "id": "l1", "title": "Motion with a job to do", "minutes": 17 },
+      { "id": "l2", "title": "Duration, easing and perceived speed", "minutes": 22 },
+      { "id": "l3", "title": "Vue transitions in practice", "minutes": 28 },
+      { "id": "l4", "title": "Reduced motion as a first-class path", "minutes": 18 }
+    ]
+  }
+]
